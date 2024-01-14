@@ -22,7 +22,7 @@ In our project we have **2 superclasses** and **2 subclasses**:
 - Game: It's a structure of this game which we should 3 abstract or we can call it as template. And in our specialized **TicTacToeGame**, The important of this class is the game play from the startgame to endGame. In Summarize, we use inheritance for the better structure of the code.
 - Player: As Player class is a really general player. So we create a specialized class **VIPPlayer** and this class can have the feature like register and login with username and password. But it need to follow the rule or the  blueprint from Player superclass.
 ### 3.1 Override:
-- We override this method because it's allows us to handle the VIP player's turn in a way that is specific to VIP players, which may involve additional logic or behavior compared to the generic player. 
+- We override this method because it's allows us to handle the VIP player's turn in a way that is specific to VIP players, which involve additional logic and behavior compared to the generic player. 
 ```java
  @Override
     public void playerTurn() {
